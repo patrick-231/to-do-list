@@ -1,20 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To do list Vanilla Javascript</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header></header>
-    <main></main>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="flex justify-end">
+        <img src="./images/icons8-sun-60.png" alt="sun" />
+      </div>
+    </header>
+    <main>
+      <h1 class="font-extrabold flex justify-center">To Do</h1>
+      <form class="flex justify-center pt-10 mt-10">
+        <input
+          class="w-2/5 h-20 border-4 border-red-600 flex items-end"
+          type="text"
+          id="myText"
+          placeholder="Add Task"
+        />
+      </form>
+    </main>
     <footer></footer>
 
     <script src="./index.js"></script>
-    
-</body>
+  </body>
 </html>
